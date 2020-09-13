@@ -6,7 +6,7 @@ AZURE_STORAGE_ACCOUNT=<accout_name>
 AZURE_CONTAINER_NAME=<container_name>
 AZURE_ACCESS_KEY=<azure_access_key>
 
-export PGPASSWORD='password'; PGSSLMODE=allow pg_dump --host=host --port=5432 --username=user --dbname=db > $FILENAME
+export PGPASSWORD='password'; PGSSLMODE=allow pg_dump --host=host --port=port --username=user --dbname=db > $FILENAME
 
 authorization="SharedKey"
 
